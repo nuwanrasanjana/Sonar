@@ -5,6 +5,13 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar", "Sonar\Sonar.csproj", "{95D64B74-5A14-467E-B37B-112A89F5011B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0BA9548F-CE33-4DFA-B8FE-7E29DE732AE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{FF102A4F-2905-4005-87CF-0071D2AAF7A0}"
+	ProjectSection(SolutionItems) = preProject
+		sonarcloud.yml = sonarcloud.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF102A4F-2905-4005-87CF-0071D2AAF7A0} = {0BA9548F-CE33-4DFA-B8FE-7E29DE732AE5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E75ACAA5-1E2E-4667-A30F-6F79EF708B1C}
